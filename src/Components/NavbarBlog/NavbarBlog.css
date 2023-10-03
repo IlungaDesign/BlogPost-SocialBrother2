@@ -1,0 +1,21 @@
+.Title-NavbarBlog {
+    height: 62px;
+    width: 100%;
+    background: transparent;
+    top:113px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Title-NavbarBlog h1 {
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 62px;
+    text-align: center;
+}
+

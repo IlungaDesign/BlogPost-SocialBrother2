@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    padding:0;
+    margin: 0;
+}
+
+.header {
+    height: 208px;
+    width: 100%;
+    z-index: 1;
+    background-color: #FAFAFA;
+    position: sticky;
+    border-bottom: 0px solid black;
+}
+
+.header .mask {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    height: 208px;
+    margin: auto;
+    background-image: url("../../Images/Mask.png");
+}
+
+.logo-Social-Brothers {
+    height: 57px;
+    width: 240px;
+    margin-left: 162px;
+    margin-top: 32px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.stacked-group {
+    margin-top: 32px;
+    height: 30px;
+    width: 123px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 162px;
+}
+
+.nav-item {
+    list-style: none;
+    text-decoration: none;
+}
+
+.home {
+    height: 21px;
+    width: 52px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: none;
+    padding-bottom: 7px;
+}
+
+.blog {
+    height: 21px;
+    width: 39px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: none;
+    padding-bottom: 7px;
+}
+
+.active-link {
+    border-bottom: 2px solid #E95E30;
+}
+
+/*-------------------------------------------*/
+
+@media screen and (max-width:940px) {
+
+    .hamburger {
+        display: block;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+    .stacked-group {
+        position: fixed;
+        left: -100%;
+        top: 200px;
+        width: 100%;
+        height: 0vh;
+        transition: .3s;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .stacked-group.active {
+        left: 0px;
+        height: 0vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .header .nav-item {
+        padding: 10px;
+        color: white;
+        background-color: #E95E30;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+    }
+
+
+    .home {
+        height: 21px;
+        width: 52px;
+        color: #FFFFFF;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 21px;
+        text-decoration: none;
+        padding-bottom: 7px;
+    }
+
+    .blog {
+        height: 21px;
+        width: 39px;
+        color: #FFFFFF;
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 0;
+        line-height: 21px;
+        text-decoration: none;
+        padding-bottom: 7px;
+    }
+
+    .logo-Social-Brothers {
+        height: 43px;
+        width: 180px;
+        margin-left: 50px;
+        margin-top: 42px;
+    }
+}
+
+/*!*-------------------------------------------*!*/
+
+@media screen and (max-width:480px) {
+
+    .logo-Social-Brothers {
+        height: 43px;
+        width: 180px;
+        margin-left: 50px;
+        margin-top: 42px;
+    }
+
+    .hamburger {
+        display: block;
+        margin-top: 50px;
+        margin-right: 40px;
+    }
+}
+

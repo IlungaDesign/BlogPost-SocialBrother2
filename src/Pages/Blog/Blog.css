@@ -1,0 +1,37 @@
+.Archive-session {
+    max-width: 1440px;
+    height:auto;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+}
+
+.stacked-group-copy {
+    height: auto;
+    width: auto;
+    margin-bottom: 64px;
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.box-blogpost {
+    max-width: 1116px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.pagination {
+    height: 25px;
+    width: 322px;
+    background-color: lightskyblue;
+}
+

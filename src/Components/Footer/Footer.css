@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+
+body {
+    background-color: #FAFAFA;
+}
+
+.footer {
+    height: 32px;
+    width: 1440px;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.group-12 {
+    height: 15px;
+    width: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    height: 13px;
+    width: 12px;
+    color: #FFFFFF;
+    font-family: "Font Awesome 6 Pro";
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 13px;
+    text-align: right;
+}
+
+.copyright-social-bro {
+    height: 15px;
+    width: 187px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 13px;
+}
+
+/*-------------------------------------------*/
+
+@media screen and (max-width:940px) {
+
+    .footer {
+        height: 32px;
+        max-width: 100%;
+        background-color: #262626;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+}
+

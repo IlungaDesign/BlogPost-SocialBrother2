@@ -1,0 +1,44 @@
+
+.Container-lastpost {
+    height: 217px;
+    width: 285px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bitmap2 {
+    height: 72px;
+    width: 285px;
+}
+
+.text-lastpost {
+    height: 113px;
+    width: 253px;
+    margin: 15px;
+}
+
+.Container-heading2 {
+    height: 29px;
+    width: 253px;
+    color: #262626;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 29px;
+}
+
+.Container-paragraph2 {
+    height: 76px;
+    width: 253px;
+    background-color: white;
+    margin: 8px auto auto auto;
+    color: #868686;
+    font-family: Inter;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 19px;
+}
